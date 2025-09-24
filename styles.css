@@ -1,0 +1,56 @@
+.meow {
+    width: 250px;
+    height: auto;
+}
+
+.paris {
+  width: 250px;
+  height: auto;
+  margin: 0 20px 20px 0;
+}
+
+body {
+    background-color: rgba(115, 158, 225, 0.4);
+
+}
+
+.about-btn {
+    background-color: rgba(115, 158, 225, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+    background-color: rgba(115, 158, 225, 0.3);
+}
+
+.send-btn {
+    background-color: rgba(97, 158, 255, 0.4);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: backgroung-color 0.3s ease;
+}
+
+.send-btn:hover {
+    background-color: rgba(97, 158, 255, 0.2);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;           /* full width of container */
+  max-width: 500px;      /* not too wide */
+  padding: 10px;         /* space inside */
+  margin-bottom: 15px;   /* space between boxes */
+  border: 2px solid rgba(0, 100, 200, 0.6); /* blue border */
+  font-size: 16px;
+}
+
+.contact-form .row {
+  justify-content: center;
+  text-align: center;
+}
